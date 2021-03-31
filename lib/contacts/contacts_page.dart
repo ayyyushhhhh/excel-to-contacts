@@ -104,7 +104,7 @@ class _contactsPageState extends State<contactsPage> {
             // ignore: deprecated_member_use
             RaisedButton(
               child: contactFile == null
-                  ? Text('Upload csv/xlsx File')
+                  ? Text('Upload xlsx File')
                   : CircularProgressIndicator(),
               onPressed: () async {
                 Name.clear();
@@ -131,7 +131,7 @@ class _contactsPageState extends State<contactsPage> {
                 borderRadius: BorderRadius.all(Radius.circular(10)),
               ),
               child: Text(
-                  'Read Me - Before Uploading the Xlsx/csv file.Check Column number for names and Contact number. By default, it is set to 1 & 2. If Nothing Happened, then your columns are empty'),
+                  'Read Me - Before Uploading the Xlsx file.Check Column number for names and Contact number. By default, it is set to 1 & 2. If Nothing Happened, then your columns are empty'),
             )
           ],
         ),
