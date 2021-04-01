@@ -1,3 +1,4 @@
+import 'package:contacts_app/contacts/contacts_page.dart';
 import 'package:contacts_app/contacts/final_page_route.dart';
 import 'package:contacts_app/functions/functions.dart';
 import 'package:contacts_service/contacts_service.dart';
